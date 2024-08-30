@@ -18,7 +18,7 @@ std::vector<long long> sieve_eratosthenes(long long &n)
         p += 2;
     }
 
-    std::vector<long long> primes;
+    std::vector<long long> primes(1, 2);
 
     for (size_t i = 0; i < (n - 1) / 2; i++)
         if (sieve[i])
