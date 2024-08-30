@@ -2,8 +2,7 @@
 #define SIEVE_OF_ERATOSTHENES
 
 #include <vector>
-#include <gmpxx.h>
 
-std::vector<mpz_class> sieve_eratosthenes(mpz_class &upper_bound);
+std::vector<long long> sieve_eratosthenes(long long &upper_bound);
 
 #endif
