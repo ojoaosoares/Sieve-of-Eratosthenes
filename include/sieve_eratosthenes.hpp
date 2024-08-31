@@ -3,6 +3,6 @@
 
 #include <vector>
 
-std::vector<long long> sieve_eratosthenes(long long &upper_bound);
+std::vector<long long> sieve_eratosthenes(long long &n);
 
 #endif
